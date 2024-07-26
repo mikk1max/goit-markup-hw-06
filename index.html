@@ -55,6 +55,80 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>
+            <svg class="burger-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="burger-nav-list">
+              <li class="burger-nav-list-item">
+                <a class="burger-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="burger-nav-list-item">
+                <a class="burger-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="burger-nav-list-item">
+                <a class="burger-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="burger-contacts">
+            <ul class="burger-contacts-list">
+              <li class="burger-contacts-list-item">
+                <a class="burger-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="burger-contacts-list-item">
+                <a class="burger-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="burger-soc-icons-list">
+            <li class="burger-soc-icons-item">
+              <a class="burger-soc-icon-link" href="">
+                <svg class="burger-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-soc-icons-item">
+              <a class="burger-soc-icon-link" href="">
+                <svg class="burger-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-soc-icons-item">
+              <a class="burger-soc-icon-link" href="">
+                <svg class="burger-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-soc-icons-item">
+              <a class="burger-soc-icon-link" href="">
+                <svg class="burger-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -552,11 +626,13 @@
               <span class="modal-tick-text">
                 <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-tick"></use></svg></span
-              >I accept the terms and conditions of the<a
-                href=""
-                class="tick-label-link"
-                >Privacy Policy</a
-              >
+              ><span
+                >I accept the terms and conditions of the<a
+                  href=""
+                  class="tick-label-link"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
           <button class="modal-submit-btn" type="submit">Send</button>
@@ -564,5 +640,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
