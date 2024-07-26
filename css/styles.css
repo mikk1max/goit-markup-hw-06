@@ -357,13 +357,22 @@ h6 {
 /* SECTION HERO */
 .sec-baner {
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
+    url(../images/mobile/1x/section-hero/hero-bg.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
   padding: 72px 0;
+}
+
+@media screen and (-wekit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .sec-baner {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/mobile/2x/section-hero/hero-bg.jpg);
+  }
 }
 
 .baner-title {
@@ -406,6 +415,8 @@ h6 {
   .sec-baner {
     max-width: 768px;
     padding: 112px 0;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/tablet/1x/section-hero/hero-bg.jpg);
   }
 
   .baner-title {
@@ -417,16 +428,36 @@ h6 {
   .sec-baner-btn {
     margin-top: 36px;
   }
+
+  @media screen and (-wekit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .sec-baner {
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/tablet/2x/section-hero/hero-bg.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .sec-baner {
     max-width: 1440px;
     padding: 188px 0;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/desktop/1x/section-hero/hero-bg.jpg);
   }
 
   .sec-baner-btn {
     margin-top: 48px;
+  }
+
+  @media screen and (-wekit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .sec-baner {
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/desktop/2x/section-hero/hero-bg.jpg);
+    }
   }
 }
 
