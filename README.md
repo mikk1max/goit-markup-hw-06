@@ -8,7 +8,6 @@ Welcome to the WEBSTUDIO project! This project showcases a modern, adaptive web 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -59,10 +58,6 @@ Alternatively, you can use a local server to view the project:
 1. **Install a live server extension** (such as Live Server for Visual Studio Code).
 2. **Open the project in your code editor**.
 3. **Start the live server**.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
