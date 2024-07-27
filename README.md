@@ -68,7 +68,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Maksym Shepeta - [maksim.shepeta@gmail.com](mailto:maksim.shepeta@gmail.com)
 
-Project Link: [https://github.com/your-username/WEBSTUDIO](https://github.com/your-username/WEBSTUDIO)
+Project Link: [https://github.com/mikk1max/WEBSTUDIO](https://github.com/mikk1max/goit-markup-hw-06.git)
 
 ---
 
