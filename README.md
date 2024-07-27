@@ -2,14 +2,6 @@
 
 Welcome to the WEBSTUDIO project! This project showcases a modern, adaptive web page designed to provide a seamless user experience across multiple devices. Below you will find detailed information about the features, technologies, and design considerations of this project.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
-
 ## Features
 
 - **Adaptive Design**: The web page is designed to be fully responsive with breakpoints at `320px`, `768px`, and `1158px`, ensuring an optimal viewing experience on mobile phones, tablets, and desktops.
