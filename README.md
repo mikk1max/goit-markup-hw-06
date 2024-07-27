@@ -19,6 +19,10 @@ Welcome to the WEBSTUDIO project! This project showcases a modern, adaptive web 
 - **JavaScript Functionality**:
   - **Modal Window**: A modal window implemented for enhanced user interaction.
   - **Burger Menu**: A responsive burger menu for easy navigation on smaller screens.
+- **Code Formatting**: The code is formatted using Prettier to ensure consistency and readability.
+- **Normalization**: `modern-normalize` is connected to standardize styles across different browsers.
+- **High-Resolution Images**: All images support both 1x and 2x screen pixel resolutions for better display on high-DPI screens.
+- **Mobile-First Design**: The design approach prioritizes mobile devices, ensuring a smooth experience on smaller screens before scaling up to larger devices.
 
 ## Technologies Used
 
@@ -26,6 +30,8 @@ Welcome to the WEBSTUDIO project! This project showcases a modern, adaptive web 
 - **CSS3**: For styling and adaptive design.
 - **JavaScript**: For dynamic content and interactive features.
 - **Image Optimization Tools**: To reduce image sizes and improve loading times.
+- **Prettier**: For code formatting.
+- **modern-normalize**: For CSS normalization.
 
 ## Installation
 
