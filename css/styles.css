@@ -301,6 +301,10 @@ h6 {
   color: #2e2f42;
 }
 
+.burger-nav-link.current {
+  color: #404bbf;
+}
+
 .burger-contacts {
   font-style: normal;
 }
@@ -321,6 +325,10 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.burger-contacts-link.current {
+  color: #4d5ae5;
 }
 
 .burger-soc-icons-list {
@@ -356,7 +364,10 @@ h6 {
 
 /* SECTION HERO */
 .sec-baner {
-  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/mobile/1x/section-hero/hero-bg.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
@@ -370,7 +381,10 @@ h6 {
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .sec-baner {
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/mobile/2x/section-hero/hero-bg.jpg);
   }
 }
@@ -415,7 +429,10 @@ h6 {
   .sec-baner {
     max-width: 768px;
     padding: 112px 0;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/tablet/1x/section-hero/hero-bg.jpg);
   }
 
@@ -433,7 +450,10 @@ h6 {
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .sec-baner {
-      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/tablet/2x/section-hero/hero-bg.jpg);
     }
   }
@@ -443,7 +463,10 @@ h6 {
   .sec-baner {
     max-width: 1440px;
     padding: 188px 0;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/desktop/1x/section-hero/hero-bg.jpg);
   }
 
@@ -455,7 +478,10 @@ h6 {
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .sec-baner {
-      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/desktop/2x/section-hero/hero-bg.jpg);
     }
   }
@@ -783,13 +809,20 @@ h6 {
   margin-bottom: 16px;
 }
 
+.footer-container-item:first-child {
+  margin-bottom: 72px;
+}
+
+.footer-container-item:nth-child(2) {
+  margin-bottom: 72px;
+}
+
 .footer-page .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 72px;
 }
 
 .footer-soc-title {
@@ -807,7 +840,6 @@ h6 {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .subscription-title {
@@ -885,15 +917,17 @@ h6 {
   .footer-page .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 92px;
+    gap: 72px 24px;
+    padding: 0 108px;
+  }
+
+  .footer-container-item:nth-child(2) {
+    margin-bottom: 0;
   }
 
   .footer-container-item:first-child {
-    margin-right: 24px;
-  }
-
-  .footer-container-item:not(:last-child) {
-    width: calc((100% - 24px) / 2);
+    max-width: 264px;
+    margin-bottom: 0;
   }
 
   .footer-logo {
@@ -942,6 +976,9 @@ h6 {
     flex-wrap: nowrap;
     margin: 0 auto;
     position: relative;
+
+    gap: 0;
+    padding: 0 15px;
   }
 
   .footer-logo {
